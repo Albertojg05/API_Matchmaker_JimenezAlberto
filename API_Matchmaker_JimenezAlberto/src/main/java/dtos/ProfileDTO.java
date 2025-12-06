@@ -23,7 +23,7 @@ public class ProfileDTO {
     private String telefono;
     private String celular;
     private String direccion;
-    private String edad;
+    private int edad;
 
     public ProfileDTO() {
     }
@@ -34,7 +34,7 @@ public class ProfileDTO {
         this.pais = pais;
     }
 
-    public ProfileDTO(String nombre, String apellidoPaterno, String apellidoMaterno, Calendar fechaDeNacimiento, String foto, String email, String genero, String pais, String telefono, String celular, String direccion, String edad) {
+    public ProfileDTO(String nombre, String apellidoPaterno, String apellidoMaterno, Calendar fechaDeNacimiento, String foto, String email, String genero, String pais, String telefono, String celular, String direccion, int edad) {
         this.nombre = nombre;
         this.apellidoPaterno = apellidoPaterno;
         this.apellidoMaterno = apellidoMaterno;
@@ -137,11 +137,11 @@ public class ProfileDTO {
         this.direccion = direccion;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 

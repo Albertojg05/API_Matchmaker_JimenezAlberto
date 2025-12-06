@@ -1,3 +1,5 @@
+entitys\Perfil.class
+daos\ProfileDAO.class
 api\PerfilResource.class
 com\mycompany\api_matchmaker_jimenezalberto\JakartaRestConfiguration.class
 com\mycompany\api_matchmaker_jimenezalberto\resources\JakartaEE10Resource.class
